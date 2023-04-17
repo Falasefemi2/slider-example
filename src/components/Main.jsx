@@ -5,7 +5,7 @@ import { images } from "./data"
 import { useState } from "react"
 
 const Main = () => {
-    const [active, setActive] = useState('Halland-3')
+    const [active, setActive] = useState(images[2].id)
   return (
     <section>
         <motion.div
